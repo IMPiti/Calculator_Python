@@ -32,11 +32,11 @@ sayi2 = int(input("İkinci Sayıyı Giriniz : "))
 
 if secim == "1":
     print(f"{sayi1} + {sayi2} = {toplama(sayi1, sayi2)}")
-elif secim == "2":
+if secim == "2":
     print(f"{sayi1} - {sayi2} = {cikarma(sayi1, sayi2)}")
-elif secim == "3":
+if secim == "3":
     print(f"{sayi1} * {sayi2} = {carpma(sayi1, sayi2)}")
-elif secim == "4":
+if secim == "4":
     print(f"{sayi1} / {sayi2} = {bolme(sayi1, sayi2)}")
 else:
     print(f"Geçersiz bir komut girdiniz...")
